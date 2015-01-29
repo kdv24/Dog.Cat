@@ -1,0 +1,76 @@
+body {
+	margin: 5%;
+}
+
+h1 {
+	cursor: pointer;
+}
+
+
+.pictures {
+	display: inline-block;
+	width: 100%;
+	margin: 0%, 5%;
+}
+
+.eddie {
+	width: 45%;
+	float: left;
+	text-align: center;	
+	cursor: pointer;
+}
+
+.otto {
+	width: 45%;
+	float: right;
+	text-align: center;
+	cursor: pointer;
+}
+
+.text-area {
+	text-align: justify;
+}
+
+.captions {
+	/*background-color: lightblue;*/
+	display: inline-block;
+	width: 100%;
+
+}
+
+.captions .eddie {
+	background-color: lightgreen;
+}
+
+.captions .otto {
+	background-color: lightblue;
+}
+
+a .toggle {
+	display: none;
+	width: 50%;
+	float: center;
+	padding: 2% 2%;
+	margin: 5% 25%;
+	border: 5px solid purple;
+}
+
+li {
+	display: inline-block;
+	margin-left: 0%;
+	padding-right: 15%;
+	width: 100%;
+}
+
+.eddie-noises {
+	width: 45%;
+	float: left;
+	text-align: center;
+
+}
+
+.otto-noises {
+	width: 45%;
+	float: right;
+	text-align: center;
+}
